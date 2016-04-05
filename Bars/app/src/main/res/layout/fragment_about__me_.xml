@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhiu.hw03frag.About_Me_Frag"
+    android:id="@+id/about_me"
+    android:background="#afa7a7">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abhilash Udayashankar"
+        android:id="@+id/textView3"
+        android:shadowColor="#775543"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:textColor="#df2e0f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Engineering Grad Student @ "
+        android:id="@+id/textView4"
+        android:textSize="17dp"
+        android:textColor="#eb1269" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/syracuse_university_letters"
+       android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/photo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="778388557"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

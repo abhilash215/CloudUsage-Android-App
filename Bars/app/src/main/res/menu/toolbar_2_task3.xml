@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.abhiu.bars.Task3">
+
+<group>
+
+    <item
+        android:title="Mic"
+        android:icon="@drawable/ic_mic_black_18dp"
+        android:id="@+id/task3_mic"
+        app:showAsAction="always">
+    </item>
+
+<item
+    android:title="Volume Up"
+    android:id="@+id/task3_vu"
+    android:icon="@drawable/ic_volume_up_black_18dp"
+    app:showAsAction="always">
+
+</item>
+
+    <item
+        android:title="Volume Down"
+        android:id="@+id/task3_vd"
+        android:icon="@drawable/ic_volume_down_black_18dp"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:title="up"
+        android:id="@+id/task3_up"
+        android:icon="@drawable/ic_launcher_up"
+        app:showAsAction="always">
+
+    </item>
+
+    </group>
+
+</menu>

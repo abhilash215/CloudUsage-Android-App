@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.abhiu.bars.Task2_t">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/abtme"
+            android:icon="@drawable/ic_person_black_18dp"
+            android:title="About Me" />
+        <item
+            android:id="@+id/t2"
+            android:icon="@drawable/ic_looks_two_black_18dp"
+            android:title="Task 2" />
+        <item
+            android:id="@+id/t3"
+            android:icon="@drawable/ic_looks_3_black_18dp"
+            android:title="Task 3" />
+
+       <item
+           android:icon="@drawable/ic_search_black_18dp"
+           android:id="@+id/search"
+           app:showAsAction="always|collapseActionView"
+           app:actionViewClass="android.support.v7.widget.SearchView"
+           android:title="search"
+          />
+
+      <item
+         app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+          android:id="@+id/share"
+          app:showAsAction="always"
+          android:icon="@drawable/ic_share_black_18dp"
+          android:title="Share"/>
+
+
+    </group>
+</menu>
